@@ -4,9 +4,10 @@ body {
 }
 
 .container {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
 .flex {
   display: flex;
 }
@@ -22,11 +23,15 @@ nav.navbar .container .navicon a {
   padding: 1.25rem 2rem;
   transition: all 0.2s ease-in-out;
 }
+
 .half-width {
   width: 50%;
 }
 .navicon {
   display: flex;
+}
+nav.navbar {
+  background-color: #ffffff;
 }
 nav.navbar .container .navicon a:hover {
   background: #96d701;
@@ -40,6 +45,7 @@ nav.navbar .container .navicon a.active {
   position: relative;
   background: #ffffff;
 }
+
 .magic-shadow:after {
   content: "";
   display: block;
@@ -56,7 +62,7 @@ nav.navbar .container .navicon a.active {
   color: #96d701;
 }
 section.container .image-1 img {
-  width: 70%;
+  width: 100%;
   position: absolute;
   right: 0;
 }
@@ -65,8 +71,11 @@ section.container .image-1 img {
 
   padding-top: 2%;
 }
+.colortag {
+  color: #fb8500;
+}
 .full-width-1 {
-  height: 640px;
+  height: 756px;
 }
 .textpath {
   display: flex;
@@ -75,7 +84,7 @@ section.container .image-1 img {
 }
 .textpath h1 {
   font-weight: 900;
-  font-size: 46px;
+  font-size: 56px;
   margin-bottom: 0;
 }
 
@@ -102,16 +111,18 @@ section.container .image-1 img {
   border: 2px solid #96d701;
 }
 .image-2 img {
-  width: 40%;
-  height: 92.8%;
+  width: 70%;
   padding-top: 5%;
   margin-bottom: 0;
   padding-bottom: 0;
+  position: relative;
+  bottom: 0;
 }
 .full-width-2 {
   margin-top: 2%;
   background-image: url(./Image/Frame\ 57.jpg);
   background-size: cover;
+  height: 885px;
 }
 .textpath h1 {
   margin-bottom: 0;
@@ -119,6 +130,7 @@ section.container .image-1 img {
   font-size: 46;
   color: #96d701;
 }
+
 .center {
   padding-top: 2%;
   text-align: center;
@@ -128,7 +140,7 @@ section.container .image-1 img {
 .center h1 {
   margin-bottom: 0;
   color: #96d701;
-  font-size: 46;
+  font-size: 56px;
   font-weight: 700;
 }
 p {
@@ -138,27 +150,28 @@ p {
 .items {
   width: 33.33%;
   border-radius: 30px;
-  padding: 25px;
+  padding: 10px;
   margin: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .items img {
-  width: 500px;
+  width: 100%;
 }
 
 .social-media {
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-top: 150px;
-  margin-left: 250px;
-  margin-right: 250px;
-  margin-bottom: 150px;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 8%;
   border-radius: 30px;
+  border-image: url(./Image/food\ background.jpg);
 }
 .social {
   align-items: center;
   align-items: center;
-  margin: 100px;
+  margin: 50px;
 }
 .social h1 {
   font-size: 65px;
@@ -176,7 +189,7 @@ p {
 }
 
 .center-1 h2 {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 50px;
   color: #ffffff;
   margin: 0;
@@ -185,6 +198,67 @@ p {
   color: #ffffff;
   margin: 0;
   padding-bottom: 50px;
+}
+.message {
+  text-align: center;
+  margin-bottom: 2%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.message h4 {
+  color: #ffffff;
+  margin: 0;
+  padding-top: 20px;
+}
+.message p {
+  color: #ffffff;
+  padding-top: 5px;
+  margin-top: 0;
+}
+.message input {
+  color: black;
+  font-weight: 400;
+  width: 400px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 0;
+  outline: none;
+}
+
+#dropmessage {
+  padding: 0;
+  margin-left: 0;
+}
+.full-width-3 {
+  background-color: #fb8500;
+  text-align: center;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1rem;
+}
+.btn-1 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  line-height: 0.8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 10%;
+  background-color: #96d701;
+  border: 0;
+}
+
+.btn-1:hover {
+  color: black;
+  background-color: #219ebc;
 }
 footer {
   background-color: #222222;
